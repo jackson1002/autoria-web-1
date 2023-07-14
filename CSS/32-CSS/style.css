@@ -1,0 +1,42 @@
+html{
+    background-color: black;
+    height: 5000px;;
+}
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.logo{
+    height:50px;
+    padding:10px;
+
+}
+
+.container{
+    height: 69px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+}
+
+header{
+    position: fixed;
+
+}
+
+nav{
+   background-color: aquamarine;
+}
+
+section{
+    height: 700px;
+    background: url(resources/img-mission-background.webp);
+}
+
+.ourmission{
+    background-color: black;
+
+}
+
