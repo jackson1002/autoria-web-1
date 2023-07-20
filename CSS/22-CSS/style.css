@@ -12,6 +12,7 @@ body {
   .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
+    padding: 20px;
   }
   
   .navigation  li.logo {
@@ -25,19 +26,22 @@ body {
     background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
     background-size: cover;
     background-position: bottom center;
-    width: 100%;
+    width: 700px;
   }
   
   #banner .content h1 {
     position: relative;
     top: 50px;
     margin: 0 auto;
+    border-radius: 15px white;
   }
   
   #main {
     padding: 40px;
     text-align: center;
-    width: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: scroll;
   }
   
   h1 {
@@ -52,6 +56,10 @@ body {
     font-size: 14px;
     line-height: 48px;
     text-align: center;
+    border: 1px dotted red;
+    margin: 30px 20px;
+    padding: 30px 20px;
+
   }
   
   h3 {
@@ -65,9 +73,16 @@ body {
     color: grey;
     font-size: 16px;
     line-height: 48px;
+    padding: 10px 20px;
+    margin: 60px;
+    height: 800px;
+    width: 200px 300px;
   }
   
   .pull-quote {
+    height:400px;
+    width: 350px;
+    margin: 0 auto;
   }
   
   .byline {
@@ -84,6 +99,7 @@ body {
     position: relative;
     text-align: center;
     width: 100%;
+    margin:10px;
   }
   
   .share a {
@@ -93,6 +109,7 @@ body {
     color: white;
     display: inline-block;
     text-decoration: none;
+    padding: 14px;
   }
   
   .share a:hover {
