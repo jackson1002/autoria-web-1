@@ -1,37 +1,37 @@
-html{
-    background-color: black;
-    height: 5000px;;
-}
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0px;
+    padding: 0px;
 }
 
 .logo{
     height:50px;
-    padding:10px;
+    margin-left:10px;
 
 }
 
-.container{
+.container1{
     height: 69px;
     display: flex;
     align-items: center;
     background-color: black;
+    width:100%;
+    position:fixed;
     
 }
 
-header{
-    position: fixed;
-
+.container2{
+   display:flex;
+   justify-content: space-between;
+   background-color: brown;
+   height: 50px;
+   width:500px;
 }
-
-nav{
-   background-color: aquamarine;
+a{
+    color: white;
+    text-decoration: underline;
 }
 
 section{
-    height: 700px;
     background: url(resources/img-mission-background.webp);
 }
 
@@ -39,4 +39,14 @@ section{
     background-color: black;
 
 }
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    display: flex;
+   
+}
+
 
