@@ -21,32 +21,25 @@
 
 .container2{
    display:flex;
+   justify-content: center;
+   align-items: center;
    justify-content: space-between;
    background-color: brown;
    height: 50px;
    width:500px;
+
 }
 a{
     color: white;
     text-decoration: underline;
 }
 
-section{
-    background: url(resources/img-mission-background.webp);
-}
-
-.ourmission{
-    background-color: black;
-
-}
-.centro{
-    display: flex;
-    justify-content: center;
-}
-
 .container3{
     display: flex;
-   
+    justify-content: flex-end;
 }
 
+nav{
+    
+}
 
