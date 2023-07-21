@@ -43,15 +43,17 @@ html{
 
 
 .img_mission{
+    display:flex;
     background-image: url("resources/img-mission-background.webp");
     height: 700px;
     width: 1200px;
     margin:auto;
+    align-items: center;
+
 }
 
 .our_mission{ 
-    display:flex;
-    background-color: pink;
+    background-color: black;
     justify-content: center;
     width: 100% ;
 
@@ -60,12 +62,14 @@ html{
 
 h2{
     color: seashell;
-    background-color:antiquewhite
+    background-color: black;
+    text-align: center;
+}
+h4{
+    color:seashell;
+    background-color: black;
+    text-align: center;
 }
 
-.quadrado{
-    display:flex;
-    align-items: center;
-}
 
 /*PARAMOS EM COLOCAR A DIV ROSINHA JUNTO COM O OUR MISSION NO CENTRO DA FIGURA,MAS PARECE QUE NÃO PODE USAR O DISPLAY-FLEX NESSA,COMO FAZER ENTAO?*/
