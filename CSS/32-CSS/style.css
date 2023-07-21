@@ -14,19 +14,17 @@
     display: flex;
     align-items: center;
     background-color: black;
-    width:100%;
     position:fixed;
     
 }
 
 .container2{
    display:flex;
-   justify-content: center;
-   align-items: center;
    justify-content: space-between;
-   background-color: brown;
+   background-color: black;
    height: 50px;
    width:500px;
+   margin-right: 10px;
 
 }
 a{
@@ -36,10 +34,23 @@ a{
 
 .container3{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-nav{
-    
+.container_conteudo{
+    display:flex;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    width:800px;
+    height:1000px;
+
+}
+
+.container_geral{
+    display:flex;
+    background-color:brown;
+    justify-content: center;
+    align-items: center;
 }
 
