@@ -2,7 +2,7 @@
    
     background-color: blue;
     width:1240px;
-    height: 1240px;
+    height: 5000px;
     margin:auto;
 }
 
@@ -60,16 +60,88 @@ html{
     
 }
 
-h2{
+.texto{
     color: seashell;
     background-color: black;
     text-align: center;
+    font-size:22px;
+    font-family: Helvetica;
 }
-h4{
-    color:seashell;
+
+
+
+.tea_of_the_month{
+    background-color: aqua;
+    width: 1000px;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+}
+
+.img_section_tea_of_the_month{
+    width:300px;
+    height: 200px;
+}
+
+/*.container4{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+}*/
+
+
+.container5{
+    display:flex;
+    background-color: red;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.texto_chas{
+    color: seashell;
     background-color: black;
     text-align: center;
+    width:300px;
+    font-size:22px;
+    font-family: Helvetica;
+}
+
+.container6{
+    display: flex;
+    flex-direction: column;
+}
+
+.container7{
+    display:flex;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+.img_locations{
+   display:flex;
+   background-image: url("resources/img-locations-background.jpg");
+   height:500px;
+   margin:auto;
+   width:1200px;
+   justify-content: center;
 }
 
 
+.texto_locations{
+    color: seashell;
+    text-align: center;
+    background-color: black;
+    font-size:22px;
+    font-family: Helvetica;
+    margin-top:50px;
+    height: 20px;
+    width: 100%;
+}
+
+.cards_locations{
+    display:block;
+}
 /*PARAMOS EM COLOCAR A DIV ROSINHA JUNTO COM O OUR MISSION NO CENTRO DA FIGURA,MAS PARECE QUE NÃO PODE USAR O DISPLAY-FLEX NESSA,COMO FAZER ENTAO?*/
