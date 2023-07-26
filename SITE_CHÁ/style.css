@@ -1,3 +1,7 @@
+*{
+    margin:0px;
+    padding:0px;
+}
 .pagina_inteira{
    
     background-color: blue;
@@ -107,6 +111,7 @@ html{
     width:300px;
     font-size:22px;
     font-family: Helvetica;
+    margin-top: 10px;
 }
 
 .container6{
@@ -126,22 +131,78 @@ html{
    height:500px;
    margin:auto;
    width:1200px;
-   justify-content: center;
+   flex-direction: column;
 }
 
+.locations{
+    background-color: aquamarine;
+    margin-top: 50px;
 
-.texto_locations{
+}
+
+.card_locations{
+    margin-top: 15px;
+    width:300px;
+    opacity: 1;
+}
+.container8{
+    display:flex;
+    background-color: brown;
+    justify-content: center;
+
+}
+
+.container9{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.espaco_card{
+    margin-left: 40px;
+}
+
+.espaco{
+   margin-top: 30px;
+}
+
+.container10{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+.container11{
+    display:flex;
+    flex-direction:column;
+    background-color: green;
+
+}
+
+.tamanho{
+    width:1000px;
+}
+
+.container12{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container13{
+    display: flex;
+    background-color: green;
+}
+
+.texto_copyright{
     color: seashell;
-    text-align: center;
     background-color: black;
+    text-align: left;
     font-size:22px;
     font-family: Helvetica;
-    margin-top:50px;
-    height: 20px;
-    width: 100%;
+    margin-left: 20px;
 }
-
-.cards_locations{
-    display:block;
-}
-/*PARAMOS EM COLOCAR A DIV ROSINHA JUNTO COM O OUR MISSION NO CENTRO DA FIGURA,MAS PARECE QUE NÃO PODE USAR O DISPLAY-FLEX NESSA,COMO FAZER ENTAO?*/
