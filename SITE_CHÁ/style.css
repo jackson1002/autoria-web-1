@@ -4,7 +4,7 @@
 }
 .pagina_inteira{
    
-    background-color: blue;
+    background-color: black;
     width:1240px;
     height: 5000px;
     margin:auto;
@@ -19,6 +19,8 @@
     position: sticky;
     top: 0;
     opacity: 0.9;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
 
 }
 
@@ -39,6 +41,8 @@ a{
     width: 300px;
     justify-content: space-between;
     margin-right:10px;
+    z-index: 1;
+
 }
 
 html{
@@ -77,8 +81,9 @@ html{
 
 
 .tea_of_the_month{
-    background-color: aqua;
+    background-color: black;
     width: 1000px;
+    margin-top: 20px;
 }
 
 .container3{
@@ -96,7 +101,7 @@ html{
 
 .container5{
     display:flex;
-    background-color: red;
+    background-color: black;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -119,7 +124,7 @@ html{
 .container7{
     display:flex;
     justify-content: space-around;
-    background-color: pink;
+    background-color: black;
 }
 
 .img_locations{
@@ -130,10 +135,11 @@ html{
    width:1200px;
    flex-direction: column;
    opacity: 0.9;
+   margin-top: 30px;
 }
 
 .locations{
-    background-color: aquamarine;
+    background-color: black;
     margin-top: 50px;
 
 }
@@ -144,7 +150,7 @@ html{
 }
 .container8{
     display:flex;
-    background-color: brown;
+    background-color: black;
     justify-content: center;
 
 }
@@ -152,7 +158,7 @@ html{
 .container9{
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: black;
     opacity: 1;
 }
 
@@ -167,7 +173,7 @@ html{
 .container10{
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    background-color: black;
     opacity: 1;
     
 }
@@ -175,7 +181,7 @@ html{
 .container11{
     display:flex;
     flex-direction:column;
-    background-color: green;
+    background-color: black;
     opacity: 1;
 
 
@@ -189,7 +195,7 @@ html{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: black;
     height: 200px;
     margin-left: 20px;
     margin-right: 20px;
@@ -198,7 +204,7 @@ html{
 
 .container13{
     display: flex;
-    background-color: green;
+    background-color: black;
     opacity: 0.9;
 }
 
