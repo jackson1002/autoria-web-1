@@ -1,18 +1,39 @@
-.container1{
-    display:flex;
-    background-color: blueviolet;
-    justify-content: center;
+.foto{
+    background-image: url(resources/img-donut.jpg);
+    width:300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    width:100px;
-    height:100px;
-}
-div{
-    background-color: aqua;
+    opacity: 0.5;
 }
 
-.container_geral{
-    display: flex;
+.locations{
+    background-color: aquamarine;
+}
+.container{
     background-color: brown;
-    justify-content: center;
-    align-items: center;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+
+.container9{
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.container10{
+    background-color: blue;
+    width:60px;
+    height: 60px;
+    opacity:1;
+}
+
+.container11{
+    background-color: green;
+    width:60px;
+    height: 60px;
 }
