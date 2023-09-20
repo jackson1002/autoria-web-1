@@ -2,11 +2,17 @@
     margin:0px;
     padding:0px;
 }
+
+.body{
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
 .pagina_inteira{
    
     background-color: black;
     width:1240px;
-    height: 5000px;
+    height: auto;
     margin:auto;
 }
 
@@ -21,6 +27,7 @@
     opacity: 0.9;
     z-index: 1;
     border-bottom: 1px solid seashell;
+    
 
 }
 
@@ -31,6 +38,8 @@
 a{
     color: seashell;
     text-decoration: underline;
+    font-size: 22px;
+    font-family: Helvetica;
 }
 
 .container2{
@@ -38,7 +47,7 @@ a{
     background-color: black;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 350px;
     justify-content: space-between;
     margin-right:10px;
     z-index: 1;
@@ -66,6 +75,8 @@ html{
     background-color: black;
     justify-content: center;
     width: 100% ;
+    font-size: 22px;
+    font-family: Helvetica;
 
     
 }
@@ -84,12 +95,20 @@ html{
     background-color: black;
     width: 1000px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container3{
+    background-color: black;
     opacity:0.9;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 700px;
 }
 
 .img_section_tea_of_the_month{
@@ -103,7 +122,7 @@ html{
     display:flex;
     background-color: black;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .texto_chas{
@@ -139,19 +158,15 @@ html{
 }
 
 .locations{
-    background-color: black;
     margin-top: 50px;
 
 }
 
-.card_locations{
-    margin-top: 15px;
-    width:300px;
-}
+
 .container8{
     display:flex;
-    background-color: black;
     justify-content: center;
+    
 
 }
 
@@ -160,6 +175,10 @@ html{
     flex-direction: column;
     background-color: black;
     opacity: 1;
+    width: 300px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .espaco_card{
@@ -175,6 +194,11 @@ html{
     flex-direction: column;
     background-color: black;
     opacity: 1;
+    width:300px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
     
 }
 
@@ -183,6 +207,10 @@ html{
     flex-direction:column;
     background-color: black;
     opacity: 1;
+    width: 300px;
+    margin-top:15px;
+    align-items: center;
+    justify-content: space-around;
 
 
 }
@@ -216,3 +244,22 @@ html{
     font-family: Helvetica;
     margin-left: 20px;
 }
+
+.texto_locations{
+    color: seashell;
+    text-align: center;
+    font-size:22px;
+    font-family: Helvetica;
+}
+
+.container_tea_of_the_month{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 130px;
+    background-color:black;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+
